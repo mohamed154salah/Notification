@@ -1,63 +1,37 @@
 # Notification App
 
 ## Description
-This is a simple simulatation for Notification APP using C# and XUnit testing. This app allows the user to Send Notification by Email have two options or SMS have two options  
+This is a simple simulation for Notification APP using C# and XUnit testing. This app allows the user to Send Notifications by Email or SMS which has two options  
 
 ## Getting Started
 - Clone this repository to your local machine.
-``` git clone https://github.com/mohamed154salah/ToDoApp```
+``` git clone https://github.com/mohamed154salah/Notification.git```
 
-- Once downloaded, cd into the ```ToDoApp``` directory.
-``` cd ToDoApp/ToDoApp```
+- Once downloaded, cd into the ```Notification``` directory.
+``` cd Notification/Notification```
 
-- The dependencies for the project are managed through NuGet. Make sure you have the NuGet CLI installed.
-``` dotnet restore ```
 - To Build The Project ``` dotnet build ```
 - To Run The Project ``` dotnet run ```
 
 - To Run The Tests
-	- ``` cd ToDoApp.Tests ```
+	- ``` cd Notification.Tests ```
 	- ``` dotnet test ```
 
-ps: you can use Visual Studio to run the project and the tests.
+PS: you can use Visual Studio to run the project and the tests.
 
 ## Project In Action
 - Type ``` dotnet run ``` in the terminal. 
 
-	- Option 1: Create a new list.
+	- Option : Enter ```E``` For Send Email ,Enter ```M``` For SMS.
+		- Choosen E will have two option ```G``` For Gmail ,```O``` For Outlook.
+		- Choosen M will have two option ```V``` For Vodafone ,```W``` For WE.
+	- Will send a Message Or Email Whatever you have chosen
 	
-		- You will be prompted to enter a name for your Task.
-		- You will be prompted to enter a description for your Task.
-		- you will be prompted to enter a Priority for your Task.
 		
-			- Options are: 1 for High, 2 for Medium, 3 for Low.
-			- If you enter a number other than 1, 2, or 3, you will be prompted to enter a valid number.
-	- Option 2: Complete a Task.
-	
-		- You will be prompted to enter the name of the Task you would like to complete.
-		
-	- Option 3: List All Tasks
-	
-		- You will be shown a list of all Tasks.
-	
-	- Option 4: Edit Task
-	
-		- You will be prompted to enter the name of the Task you would like to edit.
-			
-			- If Task Exists You have Options 1 for Name, 2 for descrbtion, 3 For Priority, 4 For save Your Edit.
-		
-
-
-
-
-
-
-
-
 
 
 
 ## Technologies Used
 The project build  With
-- .NET 6
+- .NET 7
 - XUnit
