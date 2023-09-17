@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Notification.Email.GmailConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\GmailConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.992" />
+  </Class>
+  <Class Name="Notification.Email.OutlookConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\OutlookConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.475" />
+  </Class>
+  <Class Name="Notification.Email.Email" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAQAEABAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Email\Email.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Notification.Sms.VodafoneConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\VodafoneConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.75" />
+  </Class>
+  <Class Name="Notification.Sms.WeConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\WeConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.7" />
+  </Class>
+  <Class Name="Notification.Sms.SMS" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Sms\SMS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.8" />
+  </Class>
+  <Class Name="Notification.Print" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Print.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Notification.Configuration.IConfiguration" Collapsed="true">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\IConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Notification.INotification" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INotification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
